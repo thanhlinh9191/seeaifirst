@@ -1,8 +1,6 @@
 name: CIP-1 Structured Facts Refresh
 
 on:
-  schedule:
-    - cron: '17 3 * * 1'    # Monday 03:17 UTC, parity gate in script
   workflow_dispatch: {}       # Manual = always runs, bypasses parity
 
 permissions:
